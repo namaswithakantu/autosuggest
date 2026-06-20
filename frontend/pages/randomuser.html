@@ -11,15 +11,22 @@
         <a href="/">Home</a>
         <a href="/pages/card.html">Card</a>
         <a href="/pages/toggle.html">toggle</a>
+        
         <a href="/pages/randomuser.html">Randomuser</a>
     </div>
     <div class="card">
-        <img src="../images/john.png" alt="User Image">
-        <h2>John Doe</h2>
-        <p>Male</p>
+        <img id="user-img" 
+        src="../images/john.png" alt="User Image">
+        <h2 id="user-name">John Doe</h2>
+        <p id="user-gender">Male</p>
+
+        <button onclick="randomuser()">Random User</button>
+
     </div>
     
     
-    <script src="js/index.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/randomuser.js"></script>
+
 </body>
 </html>
